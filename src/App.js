@@ -12,6 +12,7 @@ export default class App extends React.Component {
   render(){
     return (
       <Router>
+      <div className="fixed-top">
       <Navigations/>
       <Fragment>
         <Switch>
@@ -22,6 +23,7 @@ export default class App extends React.Component {
           <Route exact path="/" component={Home}/>
         </Switch>
         </Fragment>
+        </div>
       </Router>
     );
   }

@@ -26,7 +26,7 @@ class Home extends Component {
         </div>
       </div>
       <ul class="p-inline-images">
-      <h3 className="line-progress2" style={{color:'white',fontWeight: 'bold',marginTop:100}}>CI/CD Tools</h3>
+      <h3 className="line-progress3" style={{color:'white',fontWeight: 'bold'}}>CI/CD Tools</h3>
         <li class="p-inline-images__item">
           <img class="p-inline-images__logo" src={require('../../assets/image/heroku.png')} alt="Placeholder image"/>
           <h3 style={{color:'white'}}>HeroKu</h3>

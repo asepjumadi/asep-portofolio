@@ -7,7 +7,7 @@ import '../../index.scss'
 function Navigations(){
  
  return (
-  <header id="navigation" class="p-navigation ">
+  <header id="navigation" class="p-navigation fixed-header">
   <div class="p-navigation__row--full-width ">
     <div class="p-navigation__banner">
       <div class="p-navigation__logo">
