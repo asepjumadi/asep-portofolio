@@ -14,7 +14,7 @@ class Home extends Component {
 
   render() {
     return (
-    <div className="_home " style={{height:window,width:window}}>
+    <div className="_home " >
       <div  className="row ">
         <div  className="col-7">
           <h4 className="line-drawing-demo" style={{color:'white',fontWeight: 'bold',paddingTop:80}}> Hi,I'am Asep</h4>
@@ -52,5 +52,5 @@ class Home extends Component {
     );
   }
 }
-
+//style={{height:window,width:window}}
 export default Home;
