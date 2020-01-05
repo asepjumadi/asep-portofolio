@@ -12,7 +12,9 @@ export default class App extends React.Component {
   render(){
     return (
       <Router>
-      <Navigations/>
+      <div className="sticky-top">
+        <Navigations/>
+      </div>
       <div >
       <Fragment>
         <Switch>

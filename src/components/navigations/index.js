@@ -50,7 +50,6 @@ function Navigations(){
         <a>Blog</a>
         </Link>
         </li>
-       
       </ul>
     </nav>
   </div>
