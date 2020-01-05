@@ -1,0 +1,193 @@
+$background:#0000;
+$html-font-size-lg: 16px;
+$html-font-size-md: 15px;
+$html-font-size-sm: 14px;
+$html-font-size-xs: 13px;
+
+$paragraph-font-size-lg: 18px;
+$paragraph-font-size-md: 16px;
+$paragraph-font-size-sm: 14px;
+$paragraph-font-size-xs: 12px;
+
+$heading-font-size-lg: 18px;
+$heading-font-size-md: 16px;
+$heading-font-size-sm: 14px;
+$haeding-font-size-xs: 12px;
+
+$photos-size-lg: 50vh;
+$photos-size-md: 40vh;
+$photos-size-sm: 30vh;
+$photos-size-xs: 20vh;
+
+div h1{
+    font-size: $heading-font-size-lg * 1.6;
+    
+    @media (max-width: 1024px) {
+        font-size: $heading-font-size-md * 1.6;
+    }
+    
+    @media (max-width: 640px) {
+        font-size: $heading-font-size-sm * 1.6;
+    }
+    
+    @media (max-width: 480px) {
+        font-size: $haeding-font-size-xs * 1.6;
+    }
+}
+div h2{
+    font-size: $heading-font-size-lg * 1.4;
+    
+    @media (max-width: 1024px) {
+        font-size: $heading-font-size-md * 1.4;
+        letter-spacing: 0.05rem;
+    }
+    
+    @media (max-width: 640px) {
+        font-size: $heading-font-size-sm * 1.4;
+        letter-spacing: 0.05rem;
+    }
+    
+    @media (max-width: 480px) {
+        font-size: $haeding-font-size-xs * 1.2;
+        letter-spacing: 0.05rem;
+    }
+}
+div h3{
+    font-size: $heading-font-size-lg * 1.2;
+    
+    @media (max-width: 1024px) {
+        font-size: $heading-font-size-md * 1.2;
+    }
+    
+    @media (max-width: 640px) {
+        font-size: $heading-font-size-sm * 1.2;
+    }
+    
+    @media (max-width: 480px) {
+        font-size: $haeding-font-size-xs * 1.2;
+    }
+}
+div h4{
+    font-size: $heading-font-size-lg ;
+    
+    @media (max-width: 1024px) {
+        font-size: $heading-font-size-md ;
+    }
+    
+    @media (max-width: 640px) {
+        font-size: $heading-font-size-sm ;
+    }
+    
+    @media (max-width: 480px) {
+        font-size: $haeding-font-size-xs ;
+    }
+}
+p {
+    
+    font-size: $paragraph-font-size-lg;
+    
+    @media (max-width: 1024px) {
+        font-size: $paragraph-font-size-md;
+    }
+    
+    @media (max-width: 640px) {
+        font-size: $paragraph-font-size-sm;
+    }
+    
+    @media (max-width: 480px) {
+        font-size: $paragraph-font-size-xs;
+    }
+    
+}
+@keyframes moveInRight{
+    0%{
+        opacity: 0;
+        transform:translateX(-10rem);
+    }
+    50%{
+        opacity: 0.5;
+        transform:translateX(1rem);
+    }
+    100%{
+        opacity: 1;
+        transform:translate(0);
+    }
+}
+@keyframes moveInLeft{
+    0%{
+        opacity: 0;
+        transform:translateX(-10rem);
+    }
+    25%{
+        opacity: 0.1;
+        transform:translateX(-5rem);
+    }
+    75%{
+        opacity: 0.7;
+        transform:translateX(1rem);
+    }
+    100%{
+        opacity: 1;
+        transform:translate(0);
+    }
+}
+._home{
+    background:linear-gradient(45deg,rgb(1, 2, 39),rgb(13, 5, 19),rgb(36, 3, 34));
+    width: '1000rem';
+    height: '1000rem';
+    .home_aspect_ratio{
+        position: absolute;
+        top: 40%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        text-align: center; 
+        .p_image--aspect{
+            width:17rem;
+            height: $photos-size-lg;
+            @media (max-width: 1024px) {
+                width:17rem;
+                height: $photos-size-md;
+            }
+            
+            @media (max-width: 640px) {
+                width:17rem;
+                height: $photos-size-sm;
+            }
+            
+            @media (max-width: 480px) {
+                width:17rem;
+                height: $photos-size-xs * 1.5;
+            }
+            
+        }
+    }
+}
+.line-progress{
+    display: block;
+    font-weight: 400;
+    letter-spacing: 0.3rem;
+    // animation: moveInRight 4000ms linear 1s;
+    animation-name:moveInRight ;
+    animation-duration:4s;
+    animation-timing-function: ease-in;
+    
+}
+.line-progress2{
+    display: block;
+    font-weight: 400;
+    letter-spacing: 0.3rem;
+    // animation: moveInLeft 3000ms linear 1s;
+    animation-name: moveInLeft;
+    animation-duration:7s;
+    animation-timing-function: ease-in;
+}
+.line-drawing-demo{
+    letter-spacing:0.2rem;
+}
+.fixed-header{
+    top: 0;
+}
+.stikyesheader{
+    position: fixed;
+    top: 0;
+}

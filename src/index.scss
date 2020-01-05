@@ -1,0 +1,10 @@
+// Optionally override some settings
+$color-brand: #fb3b00;
+$color-navigation-background:black;
+$grid-max-height:100;
+// Import the theme
+@import 'vanilla-framework/scss/build';
+
+// Include the Sass you want
+@include vanilla;
+

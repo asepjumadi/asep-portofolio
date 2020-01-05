@@ -1,0 +1,44 @@
+$background1:rgba(30, 1, 1,.9);
+$background2:rgba(9, 7, 62,.9);
+$background3:rgba(26, 5, 44,.9);
+$primarycolor:rgba(2, 23, 41,.9);
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+.aboutbg{
+    background:linear-gradient(75deg,$background1,$background2,$background3) fixed;
+    
+    .aboutcard{
+        height: 75vh;
+        background-image: linear-gradient(to right bottom,rgba(105, 142, 223, 0.5),rgba(123, 27, 164, 0.7),rgba(17, 4, 104, 0.8)), url(../../assets/image/city.jpg);
+        background-size: cover;
+        background-position: top;
+        position: relative;
+        border-radius:20px;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+        clip-path: polygon(0 0, 100% 0%, 100% 65vh, 10% 100%); }
+    
+    .abouttrans{
+        background:transparent;
+        padding-top:2rem !important;
+        padding-bottom: 2rem !important;
+        padding-left: 2rem !important;
+        padding-right: 2rem !important
+    }
+    .header-title {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center; 
+        font-size: 4rem;
+        font-weight: bold;
+        color: azure;
+        letter-spacing: 0.3rem;
+    }
+}
+
