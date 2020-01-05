@@ -165,7 +165,7 @@ p {
     }
 }
 ._home{
-    background:linear-gradient(45deg,rgb(1, 2, 39),rgb(13, 5, 19),rgb(36, 3, 34));
+    background:linear-gradient(to right top,rgba(3, 4, 43, 0.9),rgb(29, 3, 60),rgba(60, 3, 56, 0.9));
     width: '1000rem';
     height: '1000rem';
     .home_aspect_ratio{
@@ -173,6 +173,23 @@ p {
         top: 40%;
         left: 70%;
         transform: translate(-50%, -50%);
+                @media (max-width: 1024px) {
+                    transform: translate(-50%, -50%);
+                    top: 40%;
+                    left: 70%;
+                }
+                
+                @media (max-width: 640px) {
+                    transform: translate(-50%, -65%);
+                    top: 50%;
+                    left: 70%;
+                }
+                
+                @media (max-width: 480px) {
+                    transform: translate(-50%, -50%);
+                    top: 40%;
+                    left: 70%;
+                }
         text-align: center; 
         .p_image--aspect{
             width:17rem;
