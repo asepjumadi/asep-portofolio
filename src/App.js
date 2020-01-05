@@ -12,8 +12,8 @@ export default class App extends React.Component {
   render(){
     return (
       <Router>
-      <div >
       <Navigations/>
+      <div >
       <Fragment>
         <Switch>
           <Route path="/experience" component={Experience}/>
