@@ -8,6 +8,7 @@ import Experience from './router/Experience';
 import Ability from './router/Ability';
 import Navigations from './components/navigations';
 import './style/sass/home.scss'
+import Footer from './components/Footer';
 export default class App extends React.Component {
   render(){
     return (
@@ -26,6 +27,7 @@ export default class App extends React.Component {
         </Switch>
         </Fragment>
         </div>
+        <Footer/>
       </Router>
     );
   }
