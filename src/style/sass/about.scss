@@ -9,18 +9,18 @@ $heading-font-size-sm: 14px;
 $haeding-font-size-xs: 12px;
 
 div h1{
-    font-size: $heading-font-size-lg * 1.6;
+    font-size: $heading-font-size-lg * 2;
     
     @media (max-width: 1024px) {
-        font-size: $heading-font-size-md * 1.6;
+        font-size: $heading-font-size-md * 2;
     }
     
     @media (max-width: 640px) {
-        font-size: $heading-font-size-sm * 1.6;
+        font-size: $heading-font-size-sm * 2;
     }
     
     @media (max-width: 480px) {
-        font-size: $haeding-font-size-xs * 1.6;
+        font-size: $haeding-font-size-xs * 2;
     }
 }
 div h2{
