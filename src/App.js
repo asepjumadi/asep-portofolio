@@ -12,7 +12,7 @@ export default class App extends React.Component {
   render(){
     return (
       <Router>
-      <div className="fixed-top">
+      <div >
       <Navigations/>
       <Fragment>
         <Switch>
