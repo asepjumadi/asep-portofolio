@@ -14,7 +14,7 @@ class About extends Component {
       <div className="aboutbg" style={{width:window,height:600}}>
       <div className="abouttrans">
           <div className="aboutcard row"  >
-            <p className="header-title"  >About Me</p>
+            <h1 className="header-title"  >About Me</h1>
           </div>
       </div>
       </div>
