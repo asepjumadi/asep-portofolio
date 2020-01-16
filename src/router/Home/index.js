@@ -26,28 +26,28 @@ class Home extends Component {
         </div>
       </div>
       <ul class="p-inline-images">
-      <h3 className="line-progress3" style={{color:'white',fontWeight: 'bold'}}>CI/CD Tools</h3>
-        <li class="p-inline-images__item">
-          <img class="p-inline-images__logo" src={require('../../assets/image/heroku.png')} alt="Placeholder image"/>
-          <h3 style={{color:'white'}}>HeroKu</h3>
-        </li>
+            <h3 className="line-progress3" style={{color:'white',fontWeight: 'bold'}}>CI/CD Tools</h3>
+          <li class="p-inline-images__item">
+            <img class="p-inline-images__logo" src={require('../../assets/image/heroku.png')} alt="Placeholder image"/>
+            <h3 style={{color:'white'}}>HeroKu</h3>
+          </li>
           <li class="p-inline-images__item ">
             <img class="p-inline-images__logo" src={require('../../assets/image/Octocat.png')} alt="Placeholder image"/>
             <h3 style={{color:'white'}}>GitHub</h3>
           </li>
-            <li class="p-inline-images__item">
-              <img class="p-inline-images__logo" src={require('../../assets/image/netlify.svg')} alt="Placeholder image"/>
-              <h3 style={{color:'white'}}>Netlify</h3>
-            </li>
-              <li class="p-inline-images__item">
-                <img class="p-inline-images__logo" src={require('../../assets/image/git.png')} tintColor="white" style={{width:100,height:200}} alt="Placeholder image"/>
-                <h3 style={{color:'white'}}>Git</h3>
-              </li>
-                <li class="p-inline-images__item">
-                    <img class="p-inline-images__logo" src={require('../../assets/image/aws.png')} style={{width:100,height:200}} alt="Placeholder image"/>
-                    <h3 style={{color:'white'}}>AWS w3</h3>
-                </li>
-    </ul>
+          <li class="p-inline-images__item">
+            <img class="p-inline-images__logo" src={require('../../assets/image/netlify.svg')} alt="Placeholder image"/>
+            <h3 style={{color:'white'}}>Netlify</h3>
+          </li>
+          <li class="p-inline-images__item">
+            <img class="p-inline-images__logo" src={require('../../assets/image/git.png')} tintColor="white" style={{width:100,height:200}} alt="Placeholder image"/>
+            <h3 style={{color:'white'}}>Git</h3>
+          </li>
+          <li class="p-inline-images__item">
+              <img class="p-inline-images__logo" src={require('../../assets/image/aws.png')} style={{width:100,height:200}} alt="Placeholder image"/>
+              <h3 style={{color:'white'}}>AWS S3</h3>
+          </li>
+      </ul>
     </div>
     );
   }

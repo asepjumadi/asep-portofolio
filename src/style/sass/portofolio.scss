@@ -1,0 +1,56 @@
+.htmlwash {
+    scroll-behavior: smooth;
+  }
+  
+  .bodywash {
+    margin: 0;
+    display: grid;
+    grid-template-columns: min-content 10fr;
+    font-family: system-ui, sans-serif;
+  
+    /* this breaks position sticky in Firefox */
+    /* overflow-x: hidden; */
+  }
+  
+  
+  .navwash {
+    white-space: nowrap;
+    background: #37474F;
+    
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  
+      li a {
+        display: block;
+        padding: 0.5rem 1rem;
+        color: white;
+        text-decoration: none;
+        &.current {
+          background: black;
+        }
+      }
+      li a:hover{
+          color:red;
+      }
+    }
+  }
+  
+  /* Only stick if you can fit */
+  @media (min-height: 300px) {
+    .navwash ul {
+      position: sticky;
+      top: 0;
+    }
+  }
+  
+  .mainwash {
+    padding-bottom: 40rem;
+    section {
+        padding: 2rem;
+        margin: 0 0 2rem 0;
+      }
+  }
+  
+ 

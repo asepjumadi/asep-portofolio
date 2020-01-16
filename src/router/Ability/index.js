@@ -11,6 +11,7 @@ class Ability extends Component {
     return (
       <div>
         <p>hallo i'am in ability</p>
+        <h1></h1>
       </div>
       );
   }
